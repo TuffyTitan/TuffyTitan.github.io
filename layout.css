@@ -21,19 +21,31 @@ title{
     justify-content: center; /* Horizontally centers items */
     text-align: center; /* Centers the text */
 }
+
+@keyframes slide {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+@keyframes glow-fade {
+    0%, 100% {
+        opacity: .9;
+        text-shadow: 0 0 8px #fff;
+    }
+    75% {
+        opacity: 0.2;
+        text-shadow: 0 0 15px rgb(0, 0, 0), 0 0 15px yellow, 0 0 10px greenyellow;
+    }
+}
+
 .sliding-ombre p {
     text-align: center;
     background: linear-gradient(to right, red, orange, yellow, green, indigo, violet);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: slide 3s infinite;
+    animation: glow-fade 5s ease-in-out infinite, slide 5s linear infinite;
 }
 
-@keyframes slide {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 100% 50%; }
-}
 
 h1 {
     font-weight: bold; /* Change the font size */
