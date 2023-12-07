@@ -7,24 +7,18 @@ body {
 h1 {
     font-weight: bold; /* Change the font size */
     color: #ff5733; /* Change the text color */
-    border-bottom: 2px solid #ff5733; /* Add a bottom border with specific thickness and color */
-    padding-bottom: 5px; /* Optional: add some padding below the text */
 }
 
 /* Header 2 */
 h2 {
     font-weight: 550px;
     color: #33aaff;
-    border-bottom: 1px solid #33aaff;
-    padding-bottom: 5px;
 }
 
 /* Header 3 */
 h3 {
     font-weight: 350px;
     color: #33ff57;
-    border-bottom: 1px dashed #33ff57; /* Example of a dashed line */
-    padding-bottom: 5px;
 }
 
 a {
