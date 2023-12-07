@@ -1,5 +1,5 @@
 ---
-layout: darkmode
+layout: layout
 ---
 # Hudson Home Page
 
