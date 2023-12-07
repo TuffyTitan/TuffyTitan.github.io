@@ -1,24 +1,32 @@
+/*
+--text: #dde9f2;
+--background: #030609;
+--primary: #99c1df;
+--secondary: #255b83;
+--accent: #3d90ce;
+*/
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #121212; /* Dark background */
-    color: #ffffff; /* Light text */
+    background-color: #030609; /* Dark background */
+    color: #dde9f2; /* Light text */
 }
 /* Header 1 */
 h1 {
     font-weight: bold; /* Change the font size */
-    color: #ff5733; /* Change the text color */
+    color: #99c1df; /* Change the text color */
 }
 
 /* Header 2 */
 h2 {
     font-weight: 550px;
-    color: #33aaff;
+    color: #255b83;
 }
 
 /* Header 3 */
 h3 {
     font-weight: 350px;
-    color: #33ff57;
+    color: #3d90ce;
 }
 
 a {
