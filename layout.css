@@ -12,21 +12,26 @@ body {
     color: #dde9f2; /* Light text */
 }
 /* Header 1 */
+title{
+    text-align: center;
+}
 h1 {
     font-weight: bold; /* Change the font size */
     color: #99c1df; /* Change the text color */
+    text-align: center;
 }
-
 /* Header 2 */
 h2 {
     font-weight: 550px;
     color: #255b83;
+    text-align: center;
 }
 
 /* Header 3 */
 h3 {
     font-weight: 350px;
     color: #3d90ce;
+    text-align: center;
 }
 
 a {
