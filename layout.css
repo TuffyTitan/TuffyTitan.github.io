@@ -6,15 +6,6 @@
 --accent: #3d90ce;
 */
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #030609; /* Dark background */
-    color: #dde9f2; /* Light text */
-}
-/* Header 1 */
-title{
-    text-align: center;
-}
 .centered-content {
     display: flex;
     align-items: center; /* Vertically aligns items in the container */
@@ -46,6 +37,21 @@ title{
     animation: glow-fade 5s ease-in-out infinite, slide 5s linear infinite;
 }
 
+.scroll-animation p, .scroll-animation h3 {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease-out;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #030609; /* Dark background */
+    color: #dde9f2; /* Light text */
+}
+/* Header 1 */
+title{
+    text-align: center;
+}
 
 h1 {
     font-weight: bold; /* Change the font size */
