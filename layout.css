@@ -15,6 +15,25 @@ body {
 title{
     text-align: center;
 }
+.centered-content {
+    display: flex;
+    align-items: center; /* Vertically aligns items in the container */
+    justify-content: center; /* Horizontally centers items */
+    text-align: center; /* Centers the text */
+}
+.sliding-ombre p {
+    text-align: center;
+    background: linear-gradient(to right, red, orange, yellow, green, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: slide 3s infinite;
+}
+
+@keyframes slide {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
 h1 {
     font-weight: bold; /* Change the font size */
     color: #99c1df; /* Change the text color */
