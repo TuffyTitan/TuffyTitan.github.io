@@ -1,4 +1,4 @@
-window.addEventListener('scroll', () => {
+/* window.addEventListener('scroll', () => { 
     const elements = document.querySelectorAll('.scroll-animation p, .scroll-animation h3');
     console.log(elements);
 
@@ -11,4 +11,4 @@ elements.forEach(element => {
         element.style.transform = 'translateY(0)';
     }
     });
-});
+}); */
